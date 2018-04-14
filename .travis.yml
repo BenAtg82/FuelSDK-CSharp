@@ -3,4 +3,4 @@ solution: FuelSDK-CSharp.sln
 mono: none
 dotnet: 2.1.104
 script:
-- dotnet build .\FuelSDK-CSharp\FuelSDK-CSharp.csproj
+- dotnet build FuelSDK-CSharp/FuelSDK-CSharp.csproj
