@@ -2,8 +2,9 @@
 bin
 obj
 packages
+.vs
 FuelSDK-Test/ContentAreaTest.cs
-FuelSDK-CSharp.v12.suo
+*.suo
 docs/latex
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/Debug/

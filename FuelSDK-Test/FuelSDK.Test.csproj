@@ -7,6 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>FuelSDK.Test</RootNamespace>
     <AssemblyName>FuelSDK-Test</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,22 +55,19 @@
     <Compile Include="ETUnsubEventTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
     <None Include="App.config.transform">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FuelSDK-CSharp\FuelSDK-CSharp.csproj">
-      <Project>{50281782-FA9F-44B3-A073-3759A5CA1CD8}</Project>
-      <Name>FuelSDK-CSharp</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\FuelSDK-CSharp\FuelSDK-CSharp.csproj">
+      <Project>{50281782-fa9f-44b3-a073-3759a5ca1cd8}</Project>
+      <Name>FuelSDK-CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
