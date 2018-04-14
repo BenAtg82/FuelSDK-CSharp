@@ -3,6 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RuntimeFrameworkVersion>2.0.6</RuntimeFrameworkVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1-alpha</Version>
+    <Authors>Steve Rakebrandt</Authors>
+    <Company />
+    <Description>This is a netstandard2.0 port from FuelSDK-CSharp</Description>
+    <PackageProjectUrl>https://github.com/pepperpark/FuelSDK-CSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pepperpark/FuelSDK-CSharp/tree/development</RepositoryUrl>
+    <PackageTags>salesforce fuelsdk</PackageTags>
+    <Copyright>Steve Rakebrandt</Copyright>
+    <PackageId>FuelSDK-netstandard</PackageId>
+    <Product>FuelSDK-netstandard</Product>
   </PropertyGroup>
 
   <ItemGroup>
