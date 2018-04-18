@@ -3,9 +3,9 @@ FuelSDK-CSharp
 
 Salesforce Marketing Cloud Fuel SDK for C#
 
-Master | Development
----|---
-[![Build Status](https://travis-ci.org/pepperpark/FuelSDK-CSharp.svg?branch=master)](https://travis-ci.org/pepperpark/FuelSDK-CSharp) [![Coverage Status](https://coveralls.io/repos/github/pepperpark/FuelSDK-CSharp/badge.svg?branch=master)](https://coveralls.io/github/pepperpark/FuelSDK-CSharp?branch=master)|[![Build Status](https://travis-ci.org/pepperpark/FuelSDK-CSharp.svg?branch=development)](https://travis-ci.org/pepperpark/FuelSDK-CSharp)  [![Coverage Status](https://coveralls.io/repos/github/pepperpark/FuelSDK-CSharp/badge.svg?branch=development)](https://coveralls.io/github/pepperpark/FuelSDK-CSharp?branch=development)
+Master | Development | NuGet 0.0.1-alpha
+---|---|---
+[![Build Status](https://travis-ci.org/pepperpark/FuelSDK-CSharp.svg?branch=master)](https://travis-ci.org/pepperpark/FuelSDK-CSharp) [![Coverage Status](https://coveralls.io/repos/github/pepperpark/FuelSDK-CSharp/badge.svg?branch=master)](https://coveralls.io/github/pepperpark/FuelSDK-CSharp?branch=master)|[![Build Status](https://travis-ci.org/pepperpark/FuelSDK-CSharp.svg?branch=development)](https://travis-ci.org/pepperpark/FuelSDK-CSharp)  [![Coverage Status](https://coveralls.io/repos/github/pepperpark/FuelSDK-CSharp/badge.svg?branch=development)](https://coveralls.io/github/pepperpark/FuelSDK-CSharp?branch=development)|![NuGet](https://img.shields.io/nuget/dt/FuelSDK-netstandard.svg)
 
 ## Overview ##
 The Fuel SDK for C# provides easy access to Salesforce Marketing Cloud's Fuel API Family services, including a collection of REST APIs and a SOAP API. These APIs provide access to Salesforce Marketing Cloud functionality via common collection types. 
