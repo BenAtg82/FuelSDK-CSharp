@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RuntimeFrameworkVersion>2.0.6</RuntimeFrameworkVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.1-alpha</Version>
+	<Title>FuelSDK-netstandard</Title>
+    <Version>0.1.0</Version>
     <Authors>Steve Rakebrandt</Authors>
     <Company />
     <Description>This is a netstandard2.0 port from FuelSDK-CSharp</Description>
@@ -14,6 +14,7 @@
     <Copyright>Steve Rakebrandt</Copyright>
     <PackageId>FuelSDK-netstandard</PackageId>
     <Product>FuelSDK-netstandard</Product>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
